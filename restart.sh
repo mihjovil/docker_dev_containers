@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/sh
 # This script is used directly after creating the container as it will otherwise keep the CLI busy.
 # The script will stop the container, start it again (without blocking the CLI) and open an interactive
 # CLI with the container.
