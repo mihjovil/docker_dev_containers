@@ -4,6 +4,4 @@
 # CLI with the container.
 # Replace the varialbles values with the correct ones in order to use this script.
 IMAGE_NAME="IMAGE"
-docker stop $IMAGE_NAME
-docker start $IMAGE_NAME
 docker exec -it $IMAGE_NAME /bin/bash
