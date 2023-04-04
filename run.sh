@@ -3,4 +3,4 @@
 # Replace the variables with the correct names in order to use this script
 CONTAINER_NAME="CONTAINER"
 IMAGE_NAME="IMAGE"
-docker run --name $CONTAINER_NAME $IMAGE_NAME tail -f /dev/null
+docker run --name $CONTAINER_NAME -i -d -t --rm $IMAGE_NAME bash
